@@ -1,0 +1,184 @@
+<resources>
+    <string name="app_name">Violentómetro</string>
+
+    <string-array name="questions">
+        <item>
+            ¿Le han hecho bromas hirientes entre compañeros?
+        </item>
+        <item>
+            ¿Ha sido chantajeado alguna vez por sus compañeros?
+        </item>
+        <item>
+            ¿Le han mentido o engañado con el fin de perjudicarte?
+        </item>
+        <item>
+            ¿Ha sido ignorado por sus compañeros o docentes a proposito?
+        </item>
+        <item>
+            ¿Le han dado como falta de importancia, su participacion academica o su relacion con compañeros de clase?
+        </item>
+        <item>
+            ¿Ha sido culpabilizado por sus compañeros o docentes por algo que no ha hecho?
+        </item>
+        <item>
+            ¿Cree usted que ha sido calificado de manera injusta una evaluación?
+        </item>
+        <item>
+            ¿Ha sido ofendido o ridiculizado en el salon de clases por parte de sus docentes o compañeros?
+        </item>
+        <item>
+            ¿Algun docente o compañero le ha humillado frente a los demas?
+        </item>
+        <item>
+            ¿Alguna vez ha sido intimidado o amenazado por parte de sus compañeros o docentes?
+        </item>
+        <item>
+            ¿Ha tenido compañeros que le han tratado de controlar sus acciones con el objetivo de hacerle el mal?
+        </item>
+        <item>
+            ¿Le han dañado a proposito sus cosas personales materiales?
+        </item>
+        <item>
+            ¿Siente que le han tratado de acosar o invadirle su espacio personal?
+        </item>
+        <item>
+            ¿Ha experimentado roces agresivos por parte de sus compañeros o docentes?
+        </item>
+        <item>
+            ¿Ha sido victima de golpes justificando que a sido jugando o por broma?
+        </item>
+        <item>
+            ¿Ha experimentado maltrato por medio de sus compañeros o docentes?
+        </item>
+        <item>
+            ¿Le han empujado a proposito?
+        </item>
+        <item>
+            ¿Le han tratado de golpear en su rostro a proposito?
+        </item>
+        <item>
+            ¿Ha sido pateado a su persona o a sus objetos personales con el objetivo de hacerle un daño?
+        </item>
+        <item>
+            ¿Le han encerrado o aislado?
+        </item>
+        <item>
+            ¿Le han amenazado con objetos dañinos o con armas?
+        </item>
+        <item>
+            ¿Le han amenazado de muerte?
+        </item>
+        <item>
+            ¿Le han forzado a realizar una accion que no quiere hacer porque le provocaria daño en su persona?
+        </item>
+        <item>
+            ¿Han abusado de usted?
+        </item>
+        <item>
+            ¿Han violado a su integridad fisica, psicologica, moral?
+        </item>
+        <item>
+            ¿Ha experimentado la mutilacion?
+        </item>
+        <item>
+            ¿Le han tratado de asesinar?
+        </item>
+    </string-array>
+
+    <string-array name="questions_levels">
+        <item>
+            1
+        </item>
+        <item>
+            1
+        </item>
+        <item>
+            1
+        </item>
+        <item>
+            1
+        </item>
+        <item>
+            1
+        </item>
+        <item>
+            1
+        </item>
+        <item>
+            1
+        </item>
+        <item>
+            1
+        </item>
+        <item>
+            1
+        </item>
+        <item>
+            1
+        </item>
+        <item>
+            1
+        </item>
+        <item>
+            2
+        </item>
+        <item>
+            2
+        </item>
+        <item>
+            2
+        </item>
+        <item>
+            2
+        </item>
+        <item>
+            2
+        </item>
+        <item>
+            2
+        </item>
+        <item>
+            2
+        </item>
+        <item>
+            2
+        </item>
+        <item>
+            2
+        </item>
+        <item>
+            3
+        </item>
+        <item>
+            3
+        </item>
+        <item>
+            3
+        </item>
+        <item>
+            3
+        </item>
+        <item>
+            3
+        </item>
+        <item>
+            3
+        </item>
+        <item>
+            3
+        </item>
+    </string-array>
+
+    <string-array name="levels_cant">
+        <item>
+            11
+        </item>
+        <item>
+            9
+        </item>
+        <item>
+            7
+        </item>
+    </string-array>
+
+</resources>
