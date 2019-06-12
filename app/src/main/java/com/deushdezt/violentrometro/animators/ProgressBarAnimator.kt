@@ -4,11 +4,12 @@ import android.view.animation.Animation
 import android.view.animation.Transformation
 import android.widget.ProgressBar
 
-class ProgressBarAnimated(
-    val progressBar: ProgressBar,
-    var from: Float,
-    var to: Float
+class ProgressBarAnimator(
+    val progressBar: ProgressBar
 ) : Animation() {
+
+    var from: Float = 0F
+    var to: Float = 0F
 
     override fun applyTransformation(interpolatedTime: Float, t: Transformation?) {
         super.applyTransformation(interpolatedTime, t)

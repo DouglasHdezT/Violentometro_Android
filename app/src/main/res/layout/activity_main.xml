@@ -74,6 +74,7 @@
                 android:progressDrawable="@drawable/circle_progress_bar2" />
 
             <TextView
+                android:id="@+id/progress_bar_tv2"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center"
@@ -98,6 +99,7 @@
                 android:progressDrawable="@drawable/circle_progress_bar3" />
 
             <TextView
+                android:id="@+id/progress_bar_tv3"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center"
@@ -125,7 +127,7 @@
             android:layout_weight="1"
             android:gravity="center"
             android:layout_height="wrap_content"
-            android:text="Nivel 1"
+            android:text="Leve"
             android:fontFamily="casual"
             />
 
@@ -134,7 +136,7 @@
             android:layout_weight="1"
             android:gravity="center"
             android:layout_height="wrap_content"
-            android:text="Nivel 2"
+            android:text="Seria"
             android:fontFamily="casual"
             />
 
@@ -143,7 +145,7 @@
             android:layout_weight="1"
             android:gravity="center"
             android:layout_height="wrap_content"
-            android:text="Nivel 3"
+            android:text="Peligrosa"
             android:fontFamily="casual"
             />
     </LinearLayout>
@@ -159,7 +161,7 @@
         <Button
             android:layout_width="0dp"
             android:layout_weight="1"
-            android:layout_height="wrap_content"
+            android:layout_height="72dp"
             style="?buttonBarButtonStyle"
             android:text="Realizar prueba"
             android:textColor="@color/button_text_color"
@@ -168,7 +170,7 @@
         <Button
             android:layout_width="0dp"
             android:layout_weight="1"
-            android:layout_height="wrap_content"
+            android:layout_height="72dp"
             style="?buttonBarButtonStyle"
             android:text="Últimos resultados"
             android:textColor="@color/button_text_color"

@@ -5,10 +5,12 @@ import android.view.animation.Transformation
 import android.widget.TextView
 
 class PercentageAnimator(
-        val textView: TextView,
-        var from: Float,
-        var to: Float
+        val textView: TextView
 ):Animation() {
+
+    var from: Float = 0F
+    var to: Float = 0F
+
     override fun applyTransformation(interpolatedTime: Float, t: Transformation?) {
         super.applyTransformation(interpolatedTime, t)
         val value = from + (to - from) * interpolatedTime
