@@ -13,6 +13,10 @@ class ProgressBarAnimator(
 
     override fun applyTransformation(interpolatedTime: Float, t: Transformation?) {
         super.applyTransformation(interpolatedTime, t)
+
+        from = if (from<0) 0F else from
+        to = if (to<0) 0F else to
+
         val value = from + (to - from) * interpolatedTime
         progressBar.progress = value.toInt()
     }

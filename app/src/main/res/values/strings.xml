@@ -1,5 +1,9 @@
 <resources>
     <string name="app_name">Violentómetro</string>
+    <string name="lorem_text">Es un hecho establecido hace demasiado tiempo que un lector se distraerá con el contenido del texto de un sitio mientras que mira su diseño.</string>
+    <string name="level_serious">Seria</string>
+    <string name="level_soft">Leve</string>
+    <string name="level_hardcore">Peligrosa</string>
 
     <string-array name="questions">
         <item>

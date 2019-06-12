@@ -127,7 +127,7 @@
             android:layout_weight="1"
             android:gravity="center"
             android:layout_height="wrap_content"
-            android:text="Leve"
+            android:text="@string/level_soft"
             android:fontFamily="casual"
             />
 
@@ -136,7 +136,7 @@
             android:layout_weight="1"
             android:gravity="center"
             android:layout_height="wrap_content"
-            android:text="Seria"
+            android:text="@string/level_serious"
             android:fontFamily="casual"
             />
 
@@ -145,7 +145,7 @@
             android:layout_weight="1"
             android:gravity="center"
             android:layout_height="wrap_content"
-            android:text="Peligrosa"
+            android:text="@string/level_hardcore"
             android:fontFamily="casual"
             />
     </LinearLayout>
@@ -159,6 +159,7 @@
         >
 
         <Button
+            android:id="@+id/start_case_action"
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="72dp"

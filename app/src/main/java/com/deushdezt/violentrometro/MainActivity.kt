@@ -1,7 +1,9 @@
 package com.deushdezt.violentrometro
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import com.deushdezt.violentrometro.animators.PercentageAnimator
@@ -33,10 +35,15 @@ class MainActivity : AppCompatActivity() {
         bindAnimators()
         bindLastResult()
 
+        start_case_action.setOnClickListener {
+            startActivity(Intent(this@MainActivity, TestCaseActivity::class.java))
+        }
+
     }
 
     fun bindLastResult(){
         tcViewModel.getLastTC().observe(this, Observer {
+            Log.d("MINE", "TCModified "+it?.totalLevel1+" "+it?.totalLevel2+" "+it?.totalLevel3)
             val to1 = ((it?.totalLevel1?:0) / 11F) * 100
             val to2 = ((it?.totalLevel2?:0) / 9F) * 100
             val to3 = ((it?.totalLevel3?:0) / 7F) * 100
