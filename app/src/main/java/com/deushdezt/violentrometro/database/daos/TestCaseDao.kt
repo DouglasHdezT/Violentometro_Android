@@ -13,7 +13,7 @@ interface TestCaseDao {
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun insertTestCase(testCase: TestCase)
 
-    @Query("SELECT * FROM test_case")
+    @Query("SELECT * FROM test_case ORDER BY timestamp DESC LIMIT 10")
     fun getAllTestCases():LiveData<List<TestCase>>
 
     @Query("SELECT * FROM test_case ORDER BY timestamp DESC LIMIT 1")
